@@ -20,26 +20,26 @@
             android:textColor="#f20"
             android:textAllCaps="true"
             android:textSize="35sp"
-            android:text="@{user.title}"
+            android:text="@string/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <EditText
-            android:hint="@{user.hintuser}"
+            android:hint="@string/hintuser"
             android:layout_marginTop="50dp"
             android:layout_below="@id/textviewTitle"
             android:id="@+id/edittextUsername"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <EditText
-            android:hint="@{user.hintpassword}"
+            android:hint="@string/hintpassword"
             android:layout_marginTop="50dp"
             android:layout_below="@id/edittextUsername"
             android:id="@+id/edittextPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <Button
-            android:text="@{user.textbutton}"
+            android:text="@string/textbutton"
             android:layout_marginTop="30dp"
             android:layout_centerHorizontal="true"
             android:layout_below="@id/edittextPassword"

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ungdungdangonngu1903</string>
+    <string name="title">Đăng nhập hệ thống</string>
+    <string name="hintuser">Nhập tài khoản</string>
+    <string name="hintpassword">Nhập mật khẩu</string>
+    <string name="textbutton">Đăng nhập</string>
+</resources>
