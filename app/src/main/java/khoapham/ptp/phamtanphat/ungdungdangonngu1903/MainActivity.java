@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.TableRow;
+import android.widget.Toast;
+
+import java.util.regex.Pattern;
 
 import khoapham.ptp.phamtanphat.ungdungdangonngu1903.databinding.ActivityMainBinding;
 
@@ -25,9 +28,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String user = mainBinding.edittextUsername.getText().toString();
                 String password = mainBinding.edittextPassword.getText().toString();
-                if (!TextUtils.isEmpty(user) && password.length() > 0){
-                    mainBinding.textviewInfo.setText("Tài khoản : " + user + "\n" +"Mật khẩu : " + password );
+                if (!TextUtils.isEmpty(user) && password.length() > 0) {
+                    String hienthiuser = getResources().getString(R.string.textTaikhoan);
+                    String hienthimatkhau = getResources().getString(R.string.textMatkhau);
+                    mainBinding.textviewInfo.setText(hienthiuser + " : " + user + "\n" + hienthimatkhau + " : " + password);
+                    return;
                 }
+                Toast.makeText(MainActivity.this, "Bạn hãy nhập đủ thông tin", Toast.LENGTH_SHORT).show();
             }
         });
     }

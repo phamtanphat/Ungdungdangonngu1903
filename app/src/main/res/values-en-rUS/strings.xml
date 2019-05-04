@@ -5,4 +5,6 @@
     <string name="hintuser">Input user</string>
     <string name="hintpassword">Input password</string>
     <string name="textbutton">Login</string>
+    <string name="textTaikhoan">User</string>
+    <string name="textMatkhau">Password</string>
 </resources>

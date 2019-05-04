@@ -6,6 +6,7 @@ import android.databinding.Bindable;
 import com.android.databinding.library.baseAdapters.BR;
 
 
+
 public class User extends BaseObservable {
     private String title;
     private String hintuser;
@@ -28,6 +29,7 @@ public class User extends BaseObservable {
         this.title = title;
         notifyPropertyChanged(BR.title);
     }
+
 
     @Bindable
     public String getHintuser() {
@@ -58,4 +60,6 @@ public class User extends BaseObservable {
         this.textbutton = textbutton;
         notifyPropertyChanged(BR.textbutton);
     }
+
+
 }

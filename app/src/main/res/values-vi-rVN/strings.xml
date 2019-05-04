@@ -5,4 +5,6 @@
     <string name="hintuser">Nhập tài khoản</string>
     <string name="hintpassword">Nhập mật khẩu</string>
     <string name="textbutton">Đăng nhập</string>
+    <string name="textTaikhoan">Tài khoản</string>
+    <string name="textMatkhau">Mật khẩu</string>
 </resources>
